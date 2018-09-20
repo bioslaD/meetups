@@ -1,4 +1,5 @@
 brainfuck_*
+brainfuck*
 base64_*
 json_*
 .crystal
@@ -30,3 +31,4 @@ bin
 *.cmi
 *.cmx
 **/bak
+**/.dub
