@@ -12,7 +12,7 @@ For example, this bash command creates directory structure for "Benchmarking" to
 
 ```bash
 
-mkdir -p $(date +%y%m%d)_Benchmarking/{presentation,codelabs}
+mkdir -p 180920_Benchmarking/{presentation,codelabs}
 
 ```
 
