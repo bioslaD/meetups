@@ -33,7 +33,7 @@ chmod +x ./installD.sh
 for ddist in dmd ldc gdc; do
     ./installD.sh $ddist
     ddir=$(find . -maxdepth 1 -type d -name "${ddist}*" -printf "%T+\t%p\n" |sort -r|cut -f2|head -n1)
-    if [[ -z $ddir ]]; then
+    if [[ ! -z $ddir ]]; then
         ln -snf $ddir $ddist
     fi
 
