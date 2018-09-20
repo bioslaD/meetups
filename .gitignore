@@ -29,3 +29,4 @@ bin
 *.hi
 *.cmi
 *.cmx
+**/bak
